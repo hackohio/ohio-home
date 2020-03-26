@@ -1,0 +1,18 @@
+.title-center {
+  text-align: center; }
+
+.about-content {
+  margin: 0 auto;
+  width: 60%; }
+  .about-content p {
+    margin: auto;
+    width: 90%; }
+  .about-content img {
+    width: 100%; }
+  .about-content a {
+    color: #bb0000;
+    font-size: 1.2em; }
+  .about-content .red-header {
+    color: #bb0000;
+    font-size: 4em;
+    font-weight: 100; }
