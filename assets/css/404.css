@@ -1,0 +1,288 @@
+/* Copyright 2013 The Chromium Authors. All rights reserved.
+ * Use of this source code is governed by a BSD-style license that can be
+ * found in the LICENSE file. */
+
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.icon {
+  -webkit-user-select: none;
+  user-select: none;
+  display: inline-block;
+}
+
+.icon-offline {
+  content: -webkit-image-set( url(assets/default_100_percent/100-error-offline.png) 1x, url(assets/default_200_percent/200-error-offline.png) 2x);
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+
+/* Offline page */
+
+.offline .interstitial-wrapper {
+  color: #2b2b2b;
+  font-size: 1em;
+  line-height: 1.55;
+  margin: 0 auto;
+  max-width: 600px;
+  padding-top: 100px;
+  width: 100%;
+}
+
+.offline .runner-container {
+  height: 150px;
+  max-width: 600px;
+  overflow: hidden;
+  position: absolute;
+  top: 35px;
+  width: 44px;
+}
+
+.offline .runner-canvas {
+  height: 150px;
+  max-width: 600px;
+  opacity: 1;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+.offline .controller {
+  background: rgba(247, 247, 247, .1);
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  z-index: 1;
+}
+
+#offline-resources {
+  display: none;
+}
+
+@media (max-width: 420px) {
+  .suggested-left > #control-buttons, .suggested-right > #control-buttons {
+    float: none;
+  }
+  .snackbar {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+@media (max-height: 350px) {
+  h1 {
+    margin: 0 0 15px;
+  }
+  .icon-offline {
+    margin: 0 0 10px;
+  }
+  .interstitial-wrapper {
+    margin-top: 5%;
+  }
+  .nav-wrapper {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 736px) and (orientation: landscape) {
+  .offline .interstitial-wrapper {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 420px) and (max-width: 736px) and (min-height: 240px) and (max-height: 420px) and (orientation:landscape) {
+  .interstitial-wrapper {
+    margin-bottom: 100px;
+  }
+}
+
+@media (min-height: 240px) and (orientation: landscape) {
+  .offline .interstitial-wrapper {
+    margin-bottom: 90px;
+  }
+  .icon-offline {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-height: 320px) and (orientation: landscape) {
+  .icon-offline {
+    margin-bottom: 0;
+  }
+  .offline .runner-container {
+    top: 10px;
+  }
+}
+
+@media (max-width: 240px) {
+  .interstitial-wrapper {
+    overflow: inherit;
+    padding: 0 8px;
+  }
+}
+
+/* Custom styling */
+html {
+  -webkit-text-size-adjust: 100%;
+  font-size: 125%;
+}
+
+body {
+  background-color:#f7f7f7;
+  color: #646464;
+  font-family: system-ui, 'Segoe UI', Tahoma, sans-serif;
+  font-size: 75%;
+}
+
+div {
+  display:block;
+}
+
+h1 {
+  margin-top: 0;
+      color: #333;
+      font-size: 1.6em;
+      font-weight: normal;
+      line-height: 1.25em;
+      margin-bottom: 16px;
+}
+button {
+      -webkit-user-select: none;
+      background: rgb(76, 142, 250);
+      border: 0;
+      border-radius: 2px;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      float: right;
+      font-size: .875em;
+      margin: 0;
+      padding: 10px 24px;
+      transition: box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+button:hover {
+  box-shadow: 0 1px 2px rgba(1, 1, 1, 0.5);
+}
+
+.error-code {
+      color: #777;
+      display: inline;
+      font-size: .86667em;
+      margin-top: 15px;
+      opacity: .5;
+      text-transform: uppercase;
+}
+
+.interstitial-wrapper {
+  box-sizing: border-box;
+  font-size: 1em;
+  margin: 100px auto 0;
+  max-width: 600px;
+  width: 100%;
+}
+
+.offline .interstitial-wrapper {
+  color: #2b2b2b;
+  font-size: 1em;
+  line-height: 1.55;
+  margin: 0 auto;
+  max-width: 600px;
+  padding-top: 100px;
+  width: 100%;
+}
+
+.offline .runner-container {
+      height: 150px;
+      max-width: 600px;
+      overflow: hidden;
+      position: absolute;
+      top: 35px;
+      width: 44px;
+}
+
+.icon {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 72px;
+  margin: 0 0 40px;
+  width: 720px;
+  -webkit-user-select: none;
+  content: '';
+}
+      .icon-offline {
+          background-image: url('dinasor.png');
+          background-size: contain;
+          position: relative;
+          width: 74px;
+      }
+
+.hidden {
+  display: none;
+}
+
+.nav-wrapper {
+      margin-top: 51px;
+}
+#buttons::after {
+      clear: both;
+      content: '';
+      display: block;
+      width: 100%;
+}
+
+.nav-wrapper::after {
+      clear: both;
+      content: '';
+      display: table;
+      width: 100%;
+}
+.suggested-left > #control-buttons, .suggested-left #stale-load-button, .suggested-right > #details-button {
+      float: left;
+}
+.suggested-right > #control-buttons, .suggested-right #stale-load-button, .suggested-left > #details-button {
+      float: right;
+}
+
+#details-button {
+      background: inherit;
+      border: 0;
+      float: none;
+      box-shadow: none;
+      min-width: 0;
+      margin: 0;
+      padding: 10px 0;
+      text-decoration: underline;
+}
+.small-link {
+      color: #696969;
+      font-size: .875em;
+}
+
+
+@media (min-height: 240px) and (orientation: landscape) {
+  .icon-offline {
+        margin-bottom: 20px;
+  }
+}
+@media (max-width: 640px), (max-height: 640px) {
+  h1 {
+        margin: 0 0 15px;
+  }
+  button {
+    width: 100%;
+  }
+}
