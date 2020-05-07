@@ -1,5 +1,5 @@
 // Spreadsheet URL
-const sheetURL = 'https://docs.google.com/spreadsheets/d/1fbtCptVlhUuUrm-JdBelXlSyyLAlgQDUDIV8NMVpxNU/edit#gid=0';
+const sheetURL = 'https://docs.google.com/spreadsheets/d/1YHJo6R98dmx3G5KSqEpQUzdz1uWCFn5KH6H0VQxr78g/edit?usp=sharing';
 
 const numOfEventsToShow = 7;
 
