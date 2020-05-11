@@ -186,6 +186,7 @@ a.pretty-link:visited{
   display: flex;
   margin: 0 15px;
   justify-content: center;
+  align-items: center;
   /* Must be relative for img to be absolutely positioned */
   position: relative;
 
@@ -199,16 +200,11 @@ a.pretty-link:visited{
 }
 .event-box-text {
   margin-left: 5%;
-  margin-top: 10%;
   position: relative;
-  top: 10%;
   font-size: 28px;
 }
 .event-box img {
   position: relative;
-  top: 10%;
-  margin-top: 5%;
-  margin-left: 5%;
   height: 50%;
 }
 .event-box .event-coming-soon {
