@@ -1,55 +1,55 @@
 /* Navigation */
 .nav {
-  background: #000;
+  background: #000 !important;
 }
 nav {
-  width: 100%;
-  color: white;
-  font-size: 24px;
+  width: 100% !important;
+  color: white !important;
+  font-size: 24px !important;
 
-  padding-top: 10px;
-  padding-bottom: 10px;
-  flex: 1;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  flex: 1 !important;
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: row !important;
 }
 nav a {
-  color: white;
-  font-size: 0.8em;
-  text-decoration: none;
-  flex: 2;
-  justify-content: flex-end;
-  align-items: flex-start;
+  color: white !important;
+  font-size: 0.8em !important;
+  text-decoration: none !important;
+  flex: 2 !important;
+  justify-content: flex-end !important;
+  align-items: flex-start !important;
 }
 nav img {
-  margin-left: 2em;
-  margin-right: auto;
-  height: 3em;
-  flex: 2;
+  margin-left: 2em !important;
+  margin-right: auto !important;
+  height: 3em !important;
+  flex: 2 !important;
 }
 nav span {
-  margin-right: 10px;
+  margin-right: 10px !important;
 }
 
 @media (max-width: 750px) {
   nav {
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: column !important;
+    justify-content: space-around !important;
   }
   nav img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
   nav span {
-    margin-right: 6px;
-    margin-left: 6px;
+    margin-right: 6px !important;
+    margin-left: 6px !important;
   }
 }
 
 @media (max-width: 460px) {
   nav {
-    font-size: 18px;
+    font-size: 18px !important;
   }
 }
