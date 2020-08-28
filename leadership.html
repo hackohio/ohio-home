@@ -20,6 +20,7 @@
         <link rel="stylesheet" href="assets/css/redesign-main.css" type="text/css">
         <link rel="stylesheet" href="assets/css/nav.css" type="text/css">
         <link rel="stylesheet" href="assets/css/leadership.css" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -35,18 +36,29 @@
 
     <body>
         <!-- Navigation bar -->
-        <div class="nav">
-            <div class="container">
-                <nav>
-                    <a href="/"><img id="ohio-logo" src="assets/img/OHIO-subtitle.png"/></a>
-                    <span class="left">
-                        <a href="/">HOME</a>&nbsp;&nbsp;|&nbsp;
-                        <a href="events.html">EVENTS</a>&nbsp;&nbsp;|&nbsp;
-                        <a href="leadership.html">LEADERSHIP</a>&nbsp;&nbsp;|&nbsp;
-                        <a href="about.html">ABOUT</a>&nbsp;&nbsp;|&nbsp;
-                        <a href="getinvolved.html">GET INVOLVED</a>
-                    </span>
-                </nav>
+        <div class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand ml-auto mr-auto"href="/"><img id="ohio-logo" src="assets/img/OHIO-subtitle.png"/></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="events.html" class="nav-link">EVENTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="leadership.html" class="nav-link">LEADERSHIP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="getinvolved.html" class="nav-link">GET INVOLVED</a>
+                    </li>
+                </ul>
             </div>
         </div>
 
@@ -261,6 +273,10 @@
             <br/><br/>
             <span>&copy; 2017 OHI/O <a href="privacy.html">Privacy Policy</a></span>
         </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
     </body>
 </html>

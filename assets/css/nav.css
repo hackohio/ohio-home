@@ -32,6 +32,17 @@ nav span {
   margin-right: 10px !important;
 }
 
+.navbar {
+  background-color: #000;
+}
+
+img#ohio-logo {
+  margin-left: 2em !important;
+  margin-right: auto !important;
+  height: 3em !important;
+  flex: 2 !important;
+}
+
 @media (max-width: 750px) {
   nav {
     flex-direction: column !important;
