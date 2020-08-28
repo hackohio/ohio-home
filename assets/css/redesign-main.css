@@ -385,3 +385,21 @@ Flexbox
   font-size: 0.7em;
   padding: 8px 15px;
 }
+
+.reg-button{
+  padding-top: 10px;
+}
+
+#apply {
+  background-color: #bb0000;
+  color: white;
+  font-size: 1.6em;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 7px 12px;
+}
+
+#apply:hover {
+  background-color: #880000;
+}
+
