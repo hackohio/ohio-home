@@ -8,6 +8,13 @@
     "description": "MakeOHI/O is Ohio State University's largest makeathon — a weekend of building and creating hardware projects with awesome people."
   },
   {
+    "eventName": "CodeI/O 2021",
+    "site": "",
+    "startDate": "March 13, 2021",
+    "location": "Online",
+    "description": "Code I/O is a free computer-science workshop for students ages 10 - 15. The workshop aims to enable students to see the power and fun of programming. Activities include interactive programming with Scratch, hands-on introduction to web development, and real-life applications of Computer Science."
+  },
+  {
     "eventName": "High School I/O 2021",
     "site": "hs/2020",
     "startDate": "March 20, 2021",
