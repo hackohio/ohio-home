@@ -12,6 +12,7 @@ JSON structure:
 */
 
 const url = 'assets/events.json';
+const norelblank = "target=\"_blank\" rel=\"noopener noreferrer\"";
 let pastEvents = [];
 let upcomingEvents = [];
 
@@ -27,7 +28,7 @@ $.getJSON(url)
 function processEvents(data) {
   splitEventsIntoPastAndUpcoming(data);
   orderPastAndUpcomingEventsChronologically();
-  insertEventsIntoPage();
+  insertEventsIntoPage(); //ensure this works for featured events
 }
 
 function splitEventsIntoPastAndUpcoming(data) {
@@ -68,12 +69,43 @@ function insertEventsIntoPage() {
   for (const event of pastEvents) {
     $("#events-past").append(createEventBlock(event));
   }
+  //Add for featured event
+}
+
+//Creates a featured event block
+function createFeaturedEventBlock(event){
+  let elem = "";
+  if (event.site) {
+      elem += "<a href=\"" + event.site + "\" " + norelblank + "><h3>FEATURED EVENT></h3>\n" + "<h1>" + event.eventName + "</h1>\n;
+    } else {
+      elem += "<h3>FEATURED EVENT></h3>\n" + "<h1>" + event.eventName + "</h1>\n";
+    }
+
+
+    if (event.endDate) {
+        const start = event.startDate.split(" ");
+        const end = event.endDate.split(" ");
+        if (start[0] == end[0]){
+          elem += "<h4>" + start[0] + " " + start[1].substring(0, start[1].length - 1) + " - " + end[1].substring(0, end[1].length - 1) + ", " + start[2] + "</h4>\n";
+        } else {
+          elem += "<h4>" + start[0] + " " + start[1].substring(0, start[1].length - 1) + " - " + end[0] + " " + end[1].substring(0, end[1].length - 1) + ", " + start[2] + "</h4>\n";
+        }
+      } else {
+        elem += "<h4>" + event.startDate + "</h4>\n";
+      }
+
+      if(event.site){
+        elem += "</a>"
+      }
+
+
+  return elem;
 }
 
 function createEventBlock(event) {
   let elem = "";
   if (event.site) {
-    elem += "<h2><a href=\"" + event.site + "\">" + event.eventName + "</a></h2><p><span>";
+    elem += "<h2><a href=\"" + event.site + "\" " + norelblank + ">" + event.eventName + "</a></h2><p><span>";
   } else {
     elem += "<h2>" + event.eventName + "</h2><p><span>";
   }
