@@ -72,35 +72,6 @@ function insertEventsIntoPage() {
   //Add for featured event
 }
 
-//Creates a featured event block
-function createFeaturedEventBlock(event){
-  let elem = "";
-  if (event.site) {
-      elem += "<a href=\"" + event.site + "\" " + norelblank + "><h3>FEATURED EVENT></h3>\n" + "<h1>" + event.eventName + "</h1>\n;
-    } else {
-      elem += "<h3>FEATURED EVENT></h3>\n" + "<h1>" + event.eventName + "</h1>\n";
-    }
-
-
-    if (event.endDate) {
-        const start = event.startDate.split(" ");
-        const end = event.endDate.split(" ");
-        if (start[0] == end[0]){
-          elem += "<h4>" + start[0] + " " + start[1].substring(0, start[1].length - 1) + " - " + end[1].substring(0, end[1].length - 1) + ", " + start[2] + "</h4>\n";
-        } else {
-          elem += "<h4>" + start[0] + " " + start[1].substring(0, start[1].length - 1) + " - " + end[0] + " " + end[1].substring(0, end[1].length - 1) + ", " + start[2] + "</h4>\n";
-        }
-      } else {
-        elem += "<h4>" + event.startDate + "</h4>\n";
-      }
-
-      if(event.site){
-        elem += "</a>"
-      }
-
-
-  return elem;
-}
 
 function createEventBlock(event) {
   let elem = "";
@@ -133,5 +104,37 @@ function createEventBlock(event) {
   }
 
   elem += "</p>";
+  return elem;
+}
+
+
+
+//Creates a featured event block
+function createFeaturedEventBlock(event){
+  let elem = "";
+  if (event.site) {
+      elem += "<a href=\"" + event.site + "\" " + norelblank + "><h3>FEATURED EVENT></h3>\n" + "<h1>" + event.eventName + "</h1>\n";
+    } else {
+      elem += "<h3>FEATURED EVENT></h3>\n" + "<h1>" + event.eventName + "</h1>\n";
+    }
+
+
+    if (event.endDate) {
+        const start = event.startDate.split(" ");
+        const end = event.endDate.split(" ");
+        if (start[0] == end[0]){
+          elem += "<h4>" + start[0] + " " + start[1].substring(0, start[1].length - 1) + " - " + end[1].substring(0, end[1].length - 1) + ", " + start[2] + "</h4>\n";
+        } else {
+          elem += "<h4>" + start[0] + " " + start[1].substring(0, start[1].length - 1) + " - " + end[0] + " " + end[1].substring(0, end[1].length - 1) + ", " + start[2] + "</h4>\n";
+        }
+      } else {
+        elem += "<h4>" + event.startDate + "</h4>\n";
+      }
+
+      if(event.site){
+        elem += "</a>";
+      }
+
+
   return elem;
 }
