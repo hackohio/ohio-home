@@ -67,6 +67,7 @@ function parseEvent(data) {
         learnMoreLink = `<h4 class="learn-more"><a href="${learnMore}" class="red">Learn more &gt;&gt;</a></h4>`;
     }
 
+    // HTML to be put on the page
     return `
         <br />
         <div class="community-event">
