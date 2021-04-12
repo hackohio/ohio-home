@@ -95,6 +95,21 @@ img#ohio-logo {
   padding: 0.5rem 1rem;
 }
 
+.navbar a.nav-link {
+  margin: 0 !important;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem !important;
+
+  font-family: 'proximanova', Proxima Nova, Helvetica, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  line-height: 18pt !important;
+}
+
+.navbar-get-involved a.nav-link {
+  margin: 14px 0 0 0 !important;
+  padding: 0.5rem 0.5rem 0.5rem 0rem !important;
+}
+
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
 }
