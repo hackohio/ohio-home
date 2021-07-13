@@ -1,5 +1,13 @@
 [
   {
+    "eventName": "Data I/O 2021",
+    "site": "dataio/2021",
+    "startDate": "October 23, 2021",
+    "location": "TBD",
+    "description": "Data I/O is a free one day hackathon concentrated on practice with data and analytical tools while collaborating with peers, professors, and professionals. Projects range from AI to  predictive algorithms, data visualization, and/or actionable insights",
+    "featured": false
+  },
+  {
     "eventName": "HackOHI/O 2021",
     "site": "2021",
     "startDate": "November 6, 2021",
