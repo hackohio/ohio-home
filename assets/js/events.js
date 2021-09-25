@@ -64,7 +64,8 @@ function parseEvent(data) {
         if (!(/^(http|https):\/\//.test(learnMore))) {
             learnMore = "http://"+learnMore;
         }
-        learnMoreLink = `<h4 class="learn-more"><a href="${learnMore}" class="red">Learn more &gt;&gt;</a></h4>`;
+        learnMoreLink = `<h4 class="learn-more"><a href="${learnMore}" class="red" target="_blank" rel="noopener nonreferrer">
+        Learn more &gt;&gt;</a></h4>`;
     }
 
     // HTML to be put on the page
