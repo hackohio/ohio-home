@@ -2,6 +2,8 @@
 const sheetURL = 'https://docs.google.com/spreadsheets/d/1YHJo6R98dmx3G5KSqEpQUzdz1uWCFn5KH6H0VQxr78g/edit#gid=0';
 
 const numOfEventsToShow = 7;
+const headerName = "community";
+const eventTypeName = headerName+"-event";
 
 // Load into table
 var target = $("#sheetrock-load");
@@ -18,7 +20,7 @@ function sheetrockCallback() {
     var rows = table.find("tr");
 
     // Iterate through event data (sheet rows) - skipping 0 because it is the header
-    var lastEvent = $("#community-header");
+    var lastEvent = $("#"+headerName+"-header");
 
     var eventsToShow = numOfEventsToShow;
     for (var i=0; i<rows.length && eventsToShow>0; i++) {
@@ -28,7 +30,7 @@ function sheetrockCallback() {
         if (event) {
             eventsToShow -= 1;
             lastEvent.after(event)
-            lastEvent = $("#community .community-event").last();
+            lastEvent = $("#"+headerName+" ."+eventTypeName).last();
         }
     }
 }
@@ -69,6 +71,7 @@ function parseEvent(data) {
     }
 
     // HTML to be put on the page
+    // first div class should equal eventTypeName
     return `
         <br />
         <div class="community-event">
