@@ -14,16 +14,16 @@
     "endDate": "November 7, 2021",
     "location": "Ohio Union",
     "description": "HackOHI/O is Ohio's largest hackathon and our flagship event. Check out our ninth year of building and creating awesome things.",
-    "featured": true
+    "featured": false
   },
   {
     "eventName": "MakeOHI/O 2021",
-    "site": "make/2021",
+    "site": "https://hack.osu.edu/make/2022/",
     "startDate": "March 5, 2021",
     "endDate": "Mar 7, 2021",
     "location": "Online",
     "description": "MakeOHI/O is Ohio State University's largest makeathon — a weekend of building and creating hardware projects with awesome people.",
-    "featured": false
+    "featured": true
   },
   {
     "eventName": "Code I/O 2021",
