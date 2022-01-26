@@ -1,9 +1,33 @@
 [
   {
+    "eventName": "Code I/O 2022",
+    "site": "https://acmwosu.github.io/codeio.html",
+    "startDate": "March 26, 2022",
+    "location": "TBD",
+    "description":  "Code I/O is a free computer-science workshop for girl students ages 10 - 15. The workshop aims to enable students to see the power and fun of programming. Activities include interactive programming with Scratch, hands-on introduction to web development, and real-life applications of Computer Science.",
+    "featured": false
+  },
+  {
+    "eventName": "High School I/O 2022",
+    "site": "hs/2022",
+    "startDate": "February 26, 2022",
+    "location": "Virtual",
+    "description":  "On February 26th, join us at High School I/O—a one day hackathon for high schoolers hosted by OHI/O, Ohio State's hackathon program. We aim to provide high school students an opportunity to learn about computer science in a fun, engaging, and inclusive environment.",
+    "featured": false
+  },
+  {
+    "eventName": "Make OHI/O 2022",
+    "site": "make/2022",
+    "startDate": "March 5, 2022",
+    "location": "Virtual",
+    "description": "MakeOHI/O is Ohio State University's largest makeathon — a weekend of building and creating hardware projects with awesome people.",
+    "featured": true
+  },
+  {
     "eventName": "Data I/O 2021",
     "site": "dataio/2021",
     "startDate": "October 23, 2021",
-    "location": "TBD",
+    "location": "Ohio State University",
     "description": "Data I/O is a free one day hackathon concentrated on practice with data and analytical tools while collaborating with peers, professors, and professionals. Projects range from AI to  predictive algorithms, data visualization, and/or actionable insights",
     "featured": false
   },
@@ -14,7 +38,7 @@
     "endDate": "November 7, 2021",
     "location": "Ohio Union",
     "description": "HackOHI/O is Ohio's largest hackathon and our flagship event. Check out our ninth year of building and creating awesome things.",
-    "featured": true
+    "featured": false
   },
   {
     "eventName": "MakeOHI/O 2021",
