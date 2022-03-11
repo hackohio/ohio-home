@@ -21,7 +21,7 @@
     "startDate": "March 5, 2022",
     "location": "Virtual",
     "description": "MakeOHI/O is Ohio State University's largest makeathon — a weekend of building and creating hardware projects with awesome people.",
-    "featured": true
+    "featured": false
   },
   {
     "eventName": "Data I/O 2021",
@@ -47,7 +47,7 @@
     "endDate": "Mar 7, 2021",
     "location": "Online",
     "description": "MakeOHI/O is Ohio State University's largest makeathon — a weekend of building and creating hardware projects with awesome people.",
-    "featured": true
+    "featured": false
   },
   {
     "eventName": "Code I/O 2021",
@@ -71,7 +71,7 @@
     "startDate": "April 9, 2021",
     "location": "Online",
     "description": "Ohio State students have been working hard to build a lot of cool things: anything from websites, robots, games, cool data visualizations, and more. These talented students will be showcasing their creations at ShowOHI/O and this is your opportunity as a member of the community to come see what they are working on.",
-    "featured": false
+    "featured": true
   },
   {
     "eventName": "HackOHI/O 2020",
