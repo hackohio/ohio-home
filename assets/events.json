@@ -24,6 +24,14 @@
     "featured": false
   },
   {
+    "eventName": "Show OHI/O 2022",
+    "site": "https://hack.osu.edu/show/2022/",
+    "startDate": "April 8, 2022",
+    "location": "In-Person at the Longaberger Alumni House",
+    "description": "Show OHI/O is Ohio State's annual tech innovation and entrepreneurship showcase.",
+    "featured": true
+  },
+  {
     "eventName": "Data I/O 2021",
     "site": "dataio/2021",
     "startDate": "October 23, 2021",
@@ -71,7 +79,7 @@
     "startDate": "April 9, 2021",
     "location": "Online",
     "description": "Ohio State students have been working hard to build a lot of cool things: anything from websites, robots, games, cool data visualizations, and more. These talented students will be showcasing their creations at ShowOHI/O and this is your opportunity as a member of the community to come see what they are working on.",
-    "featured": true
+    "featured": false
   },
   {
     "eventName": "HackOHI/O 2020",
