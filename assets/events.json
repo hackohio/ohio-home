@@ -1,5 +1,14 @@
 [
   {
+    "eventName": "HackOHI/O X",
+    "site": "2022",
+    "startDate": "October 8, 2022",
+    "endDate": "October 9, 2022",
+    "location": "Ohio Union",
+    "description": "HackOHI/O is Ohio's largest hackathon and our flagship event. Check out our tenth year of building and creating awesome things.",
+    "featured": true
+  },
+  {
     "eventName": "Code I/O 2022",
     "site": "https://acmwosu.github.io/codeio.html",
     "startDate": "March 26, 2022",
@@ -29,7 +38,7 @@
     "startDate": "April 8, 2022",
     "location": "In-Person at the Longaberger Alumni House",
     "description": "Show OHI/O is Ohio State's annual tech innovation and entrepreneurship showcase.",
-    "featured": true
+    "featured": false
   },
   {
     "eventName": "Data I/O 2021",
