@@ -4,6 +4,7 @@
     "site": "https://www.osubmes.org/initiatives/bio-hack",
     "startDate": "November 18. 2022",
     "endDate": "November 20, 2022",
+    "description": "Bio-Hack is a healthcare-focused hackathon where students practice their teamwork skills, technical application, and innovative thinking",
     "featured": false
   },
   {
@@ -11,6 +12,7 @@
     "site": "http://ctf.osucyber.club/",
     "startDate": "November 4, 2022",
     "endDate": "November 6, 2022",
+    "description": "Capture the Flag (CTF) is a hacking competition in which teams compete to obtain “flags” by solving security-based problems",
     "featured": false
   },
   {
@@ -19,7 +21,7 @@
     "startDate": "November 5, 2022",
     "location": "Ohio State University",
     "description": "Data I/O is a free one day hackathon concentrated on practice with data and analytical tools while collaborating with peers, professors, and professionals. Projects range from AI to predictive algorithms, data visualization, and/or actionable insights",
-    "featured": false
+    "featured": true
   },
   {
     "eventName": "HackOHI/O X",
@@ -28,7 +30,7 @@
     "endDate": "October 9, 2022",
     "location": "Ohio Union",
     "description": "HackOHI/O is Ohio's largest hackathon and our flagship event. Check out our tenth year of building and creating awesome things.",
-    "featured": true
+    "featured": false
   },
   {
     "eventName": "Code I/O 2022",
