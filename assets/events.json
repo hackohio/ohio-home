@@ -5,7 +5,7 @@
     "startDate": "November 18. 2022",
     "endDate": "November 20, 2022",
     "description": "Bio-Hack is a healthcare-focused hackathon where students practice their teamwork skills, technical application, and innovative thinking",
-    "featured": false
+    "featured": true
   },
   {
     "eventName": "Capture The Flag 2022",
@@ -21,7 +21,7 @@
     "startDate": "November 5, 2022",
     "location": "Ohio State University",
     "description": "Data I/O is a free one day hackathon concentrated on practice with data and analytical tools while collaborating with peers, professors, and professionals. Projects range from AI to predictive algorithms, data visualization, and/or actionable insights",
-    "featured": true
+    "featured": false
   },
   {
     "eventName": "HackOHI/O X",
