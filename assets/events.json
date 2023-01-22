@@ -1,11 +1,19 @@
 [
   {
+    "eventName": "HACK(T)ED",
+    "site": "https://www.instagram.com/p/CnUk5Sju0l7",
+    "startDate": "January 24, 2023",
+    "location": "Curl Viewpoint",
+    "description": "OHI/O and TEDxOhioStateUniversity are coming together for a collaborative event focusing on demystifying hackathons, and why they are such valuable learning experiences.",
+    "featured": true
+  },
+  {
     "eventName": "Bio-Hack 2022",
     "site": "https://www.osubmes.org/initiatives/bio-hack",
     "startDate": "November 18. 2022",
     "endDate": "November 20, 2022",
     "description": "Bio-Hack is a healthcare-focused hackathon where students practice their teamwork skills, technical application, and innovative thinking",
-    "featured": true
+    "featured": false
   },
   {
     "eventName": "Capture The Flag 2022",
