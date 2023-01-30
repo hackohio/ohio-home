@@ -1,11 +1,19 @@
 [
   {
+    "eventName": "MakeOHI/O 2023",
+    "site": "https://hack.osu.edu/make/2023/",
+    "startDate": "March 4th, 2023",
+    "location": "Knowlton Hall and Virtually",
+    "description": "MakeOHI/O is Ohio State University's largest makeathon — a weekend of building and creating hardware projects with awesome people.",
+    "featured": true
+  },
+  {
     "eventName": "HACK(T)ED",
     "site": "https://www.instagram.com/p/CnUk5Sju0l7",
     "startDate": "January 24, 2023",
     "location": "Curl Viewpoint",
     "description": "OHI/O and TEDxOhioStateUniversity are coming together for a collaborative event focusing on demystifying hackathons, and why they are such valuable learning experiences.",
-    "featured": true
+    "featured": false
   },
   {
     "eventName": "Bio-Hack 2022",
