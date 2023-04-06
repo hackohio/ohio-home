@@ -1,5 +1,13 @@
 [
   {
+    "eventName": "Show OHI/O 2023",
+    "site": "https://hack.osu.edu/show/2023/",
+    "startDate": "April 13, 2023",
+    "location": "In-Person at the Nationwide & Ohio Farm Bureau 4-H Center",
+    "description": "Show OHI/O is Ohio State's annual tech innovation and entrepreneurship showcase.",
+    "featured": true
+  },
+  {
     "eventName": "2023 CyberAuto Challenge",
     "site": "assets/pdf/CAC2023%20Student%20Announcement%20(002).pdf",
     "startDate": "July 23, 2023",
@@ -19,7 +27,7 @@
     "startDate": "March 4th, 2023",
     "location": "Knowlton Hall and Virtually",
     "description": "MakeOHI/O is Ohio State University's largest makeathon — a weekend of building and creating hardware projects with awesome people.",
-    "featured": true
+    "featured": false
   },
   {
     "eventName": "HACK(T)ED",
