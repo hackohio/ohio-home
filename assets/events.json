@@ -1,11 +1,19 @@
 [
   {
+    "eventName": "HackOHI/O 11",
+    "site": "https://hack.osu.edu//2023/",
+    "startDate": "October 28-29, 2023",
+    "location": "In person at Ohio Union & Virtual",
+    "description": "HackOHI/O is Ohio's largest hackathon and our flagship event.",
+    "featured": true
+  },
+  {
     "eventName": "Show OHI/O 2023",
     "site": "https://hack.osu.edu/show/2023/",
     "startDate": "April 13, 2023",
     "location": "In-Person at the Nationwide & Ohio Farm Bureau 4-H Center",
     "description": "Show OHI/O is Ohio State's annual tech innovation and entrepreneurship showcase.",
-    "featured": true
+    "featured": false
   },
   {
     "eventName": "2023 CyberAuto Challenge",
