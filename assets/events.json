@@ -1,11 +1,19 @@
 [
   {
+    "eventName": "MakeOHI/O 2024",
+    "site": "https://hack.osu.edu/make/2024/",
+    "startDate": "March 23-24, 2024",
+    "location": "Knowlton Hall and Virtually",
+    "description": "MakeOHI/O is Ohio State University's largest makeathon — a weekend of building and creating hardware projects with awesome people.",
+    "featured": true
+  },
+  {
     "eventName": "HackOHI/O 11",
     "site": "https://hack.osu.edu/2023/",
     "startDate": "October 28-29, 2023",
     "location": "In person at Ohio Union & Virtual",
     "description": "HackOHI/O is Ohio's largest hackathon and our flagship event.",
-    "featured": true
+    "featured": false
   },
   {
     "eventName": "Show OHI/O 2023",
