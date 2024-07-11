@@ -1,11 +1,19 @@
 [
   {
+    "eventName": "Construct I/O 2024",
+    "site": "https://software.osu.edu/construct-io-builders-summit",
+    "startDate": "October 17th, 2024",
+    "location": "The Ohio State University - Columbus, OH 43210",
+    "description": "Construct I/O builds on last year’s successful Startup Midwest. Hear from industry operators at leading software companies and the latest in building on platforms across AI, low code, business intelligence, and more.",
+    "featured": true
+  },
+  {
     "eventName": "ShowOHI/O 2024",
     "site": "https://hack.osu.edu/show/2024/",
     "startDate": "April 12, 2024",
     "location": "Nationwide & Ohio Farm Bureau 4-H Center",
-    "description": "ShowOHI/O is is OHio State's annual tech entrepeneurship showcase.",
-    "featured": true
+    "description": "ShowOHI/O is Ohio State's annual tech entrepeneurship showcase.",
+    "featured": false
   },
   {
     "eventName": "MakeOHI/O 2024",
