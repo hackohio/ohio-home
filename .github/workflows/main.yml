@@ -12,4 +12,4 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-east-1
     - name: Deploy static site to S3 bucket
-      run: aws s3 sync ./ s3://${{ secrets.AWS_S3_BUCKET }} --delete --exclude '.git*' --exclude 'README.md' --exclude '20*/*' --exclude 'hack-assets/*' --exclude 'show/*' --exclude 'make/*' --exclude 'hs/*' --exclude 'dataio/*' --exclude 'join/*' --exclude 'alumni/*' --exclude 'codeio/*'
+      run: aws s3 sync ./ s3://${{ secrets.AWS_S3_BUCKET }} --delete --exclude '.git*' --exclude 'README.md' --exclude '20*/*' --exclude 'hack-assets/*' --exclude 'show/*' --exclude 'make/*' --exclude 'hs/*' --exclude 'dataio/*' --exclude 'join/*' --exclude 'alumni/*' --exclude 'codeio/*' --exclude 'stemio/*' --exclude 'constructio/*'
